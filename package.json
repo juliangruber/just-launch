@@ -1,0 +1,22 @@
+{
+  "name": "broser",
+  "version": "0.0.0",
+  "description": "Launch any browser on any OS!",
+  "repository": "juliangruber/broser",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard"
+  },
+  "dependencies": {
+    "electron-stream": "^3.0.2",
+    "linux-chrome": "^1.0.0",
+    "linux-firefox": "^1.0.0",
+    "osx-chrome": "^1.1.0",
+    "osx-firefox": "^1.0.0",
+    "osx-safari": "^1.0.0",
+    "phantomjs-stream": "^1.1.1"
+  },
+  "devDependencies": {
+    "standard": "^8.0.0"
+  }
+}
