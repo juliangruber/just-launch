@@ -17,6 +17,6 @@
     "phantomjs-stream": "^1.1.1"
   },
   "devDependencies": {
-    "standard": "^8.0.0"
+    "standard": "^8.6.0"
   }
 }
