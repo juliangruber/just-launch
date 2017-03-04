@@ -8,7 +8,7 @@
     "test": "standard"
   },
   "dependencies": {
-    "electron-stream": "^4.0.0",
+    "electron-stream": "^4.1.0",
     "linux-chrome": "^1.0.0",
     "linux-firefox": "^1.0.0",
     "osx-chrome": "^1.1.0",
