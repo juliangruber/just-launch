@@ -15,11 +15,11 @@ const browsers = {
 module.exports = (os, browser, opts, cb) => {
   if (browser === 'electron') {
     const e = browsers.electron(opts)
-    e.write(`location = ${opts.uri}`)
+    e.end(`location = '${opts.uri}';`)
     setImmediate(() => cb(null, e))
   } else if (/^phantom/.test(browser)) {
-    const p = browsers.phantomjs()
-    p.write(`location = ${opts.uri}`)
+    const p = browsers.phantomjs(opts)
+    p.end(`location = '${opts.uri}';`)
     setImmediate(() => cb(null, p))
   } else if (os === 'linux' && browser === 'chrome') {
     setImmediate(() => cb(null, browsers.linux.chrome(opts)))
