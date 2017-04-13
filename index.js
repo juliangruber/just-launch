@@ -9,6 +9,9 @@ const browsers = {
   linux: {
     chrome: require('linux-chrome'),
     firefox: require('osx-firefox')
+  },
+  windows: {
+    edge: require('windows-edge')
   }
 }
 
