@@ -37,6 +37,10 @@ launch('osx', 'chrome', {
 
 ### launch(os, browser, opts, cb)
 
+Options:
+
+- `uri`
+
 ## CLI
 
 TODO
