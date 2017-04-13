@@ -31,7 +31,7 @@ launch('osx', 'chrome', {
 - [ ] windows firefox
 - [X] [windows electron](https://github.com/juliangruber/electron-stream)
 - [X] [windows phantomjs](https://github.com/juliangruber/phantomjs-stream)
-- [ ] windows edge
+- [X] [windows edge](https://github.com/eugeneware/windows-edge)
 
 ## API
 
