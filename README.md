@@ -27,7 +27,7 @@ launch('osx', 'chrome', {
 - [x] [linux firefox](https://github.com/juliangruber/linux-firefox)
 - [X] [linux electron](https://github.com/juliangruber/electron-stream)
 - [X] [linux phantomjs](https://github.com/juliangruber/phantomjs-stream)
-- [ ] windows chrome
+- [X] [windows chrome](https://github.com/ashnur/windows-chrome)
 - [ ] windows firefox
 - [X] [windows electron](https://github.com/juliangruber/electron-stream)
 - [X] [windows phantomjs](https://github.com/juliangruber/phantomjs-stream)
