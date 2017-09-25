@@ -19,6 +19,6 @@
     "windows-edge": "^1.0.1"
   },
   "devDependencies": {
-    "standard": "^8.0.0"
+    "standard": "^9.0.0"
   }
 }
