@@ -1,6 +1,6 @@
 const launch = require('.')
 
-launch('osx', 'chrome', {
+launch('chrome', {
   uri: 'https://github.com'
 }, (err, browser) => {
   if (err) throw err

@@ -8,7 +8,7 @@
 ```js
 const launch = require('broser')
 
-launch('osx', 'chrome', {
+launch(chrome', {
   uri: 'https://github.com'
 }, (err, browser) => {
   if (err) throw err
@@ -35,7 +35,7 @@ launch('osx', 'chrome', {
 
 ## API
 
-### launch(os, browser, opts, cb)
+### launch(browser, opts, cb)
 
 Options:
 
