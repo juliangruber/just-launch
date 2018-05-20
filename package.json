@@ -16,7 +16,8 @@
     "osx-safari": "^1.0.0",
     "phantomjs-stream": "^1.1.1",
     "windows-chrome": "^1.0.2",
-    "windows-edge": "^1.0.1"
+    "windows-edge": "^1.0.1",
+    "windows-firefox": "^1.0.0"
   },
   "devDependencies": {
     "standard": "^9.0.0"
