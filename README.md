@@ -8,12 +8,19 @@
 ```js
 const launch = require('broser')
 
-launch(chrome', {
+launch('chrome', {
   uri: 'https://github.com'
 }, (err, browser) => {
   if (err) throw err
   browser.on('error', console.error)
 })
+```
+
+Or use its CLI:
+
+```bash
+$ npm install -g broser
+$ broser chrome https://github.com
 ```
 
 ## Available browsers
@@ -43,7 +50,10 @@ Options:
 
 ## CLI
 
-TODO
+```bash
+$ broser
+Usage: broser BROWSER URI
+```
 
 ## License
 

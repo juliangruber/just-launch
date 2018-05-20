@@ -7,6 +7,9 @@
   "scripts": {
     "test": "standard"
   },
+  "bin": {
+    "broser": "cli.js"
+  },
   "dependencies": {
     "electron-stream": "^5.0.0",
     "linux-chrome": "^1.0.0",
