@@ -8,7 +8,7 @@ const browsers = {
   },
   linux: {
     chrome: require('linux-chrome'),
-    firefox: require('osx-firefox')
+    firefox: require('linux-firefox')
   },
   windows: {
     chrome: require('windows-chrome'),
