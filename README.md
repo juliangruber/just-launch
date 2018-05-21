@@ -1,7 +1,7 @@
 
 # just-launch
 
-Launch any browser, on any OS!
+Launch any browser, on any OS, with a fresh session!
 
 Supports
 
