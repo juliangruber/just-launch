@@ -56,10 +56,6 @@ $ npm install [-g] just-launch
 
 ### launch(browser, opts, cb)
 
-Options:
-
-- `uri`
-
 Possible `browser` values:
 
 - `chrome`
@@ -68,6 +64,24 @@ Possible `browser` values:
 - `phantom`
 - `safari` (mac OS only)
 - `edge` (Windows only)
+
+Options:
+
+- `uri`
+
+`cb` gets called with `(err, browser)`, `browser` having API:
+
+### browser.on('error', cb)
+
+An error occurred.
+
+### browser.on('exit', cb)
+
+The process exited.
+
+### browser.kill()
+
+Kill the browser process.
 
 ## CLI
 
@@ -92,6 +106,8 @@ Usage: just-launch BROWSER URI
 - [windows electron](https://github.com/juliangruber/electron-stream)
 - [windows phantomjs](https://github.com/juliangruber/phantomjs-stream)
 - [windows edge](https://github.com/eugeneware/windows-edge)
+- [electron-stream](https://github.com/juliangruber/electron-stream)
+- [phantomjs-stream](https://github.com/juliangruber/phantomjs-stream)
 
 ## License
 
