@@ -26,7 +26,7 @@ const browsers = {
 
 module.exports = async (browser, opts) => {
   if (browser === 'electron') {
-    const e = browsers.electron(opts)
+    const e = browsers.electron({ show: true, ...opts })
     e.end(`location = '${opts.uri}';`)
     return e
   } else if (/^phantom/.test(browser)) {
