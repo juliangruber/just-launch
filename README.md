@@ -7,6 +7,10 @@ Launch any browser, on any OS, with a fresh session!
 $ just-launch chrome https://github.com/
 ```
 
+```js
+const browser = await launch('chrome', { uri: 'https://github.com/' })
+```
+
 ## Browsers
 
 `just-launch` comes with support for those browsers:
