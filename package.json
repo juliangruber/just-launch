@@ -1,14 +1,14 @@
 {
-  "name": "broser",
+  "name": "just-launch",
   "version": "2.1.0",
   "description": "Launch any browser on any OS!",
-  "repository": "juliangruber/broser",
+  "repository": "juliangruber/just-launch",
   "license": "MIT",
   "scripts": {
     "test": "standard"
   },
   "bin": {
-    "broser": "cli.js"
+    "just-launch": "cli.js"
   },
   "dependencies": {
     "electron-stream": "^5.0.0",

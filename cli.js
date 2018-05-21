@@ -8,7 +8,7 @@ const launch = require('.')
 const [,, browser, uri] = process.argv
 
 if (!browser || !uri) {
-  console.error('Usage: broser BROWSER URI')
+  console.error('Usage: just-launch BROWSER URI')
   process.exit(1)
 }
 

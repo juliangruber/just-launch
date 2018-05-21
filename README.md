@@ -1,12 +1,12 @@
 
-# BROser
+# just-launch
 
   Launch any browser, on any OS!
 
 ## Example
 
 ```js
-const launch = require('broser')
+const launch = require('just-launch')
 
 launch('chrome', {
   uri: 'https://github.com'
@@ -19,8 +19,13 @@ launch('chrome', {
 Or use its CLI:
 
 ```bash
-$ npm install -g broser
-$ broser chrome https://github.com
+$ just-launch chrome https://github.com
+```
+
+## Installation
+
+```bash
+$ npm install [-g] just-launch
 ```
 
 ## Available browsers
@@ -51,8 +56,8 @@ Options:
 ## CLI
 
 ```bash
-$ broser
-Usage: broser BROWSER URI
+$ just-launch
+Usage: just-launch BROWSER URI
 ```
 
 ## License
