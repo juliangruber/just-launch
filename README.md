@@ -3,7 +3,16 @@
 
   Launch any browser, on any OS!
 
-## Example
+## Usage
+
+Use its CLI:
+
+
+```bash
+$ just-launch chrome https://github.com
+```
+
+Use its API:
 
 ```js
 const launch = require('just-launch')
@@ -14,12 +23,6 @@ launch('chrome', {
   if (err) throw err
   browser.on('error', console.error)
 })
-```
-
-Or use its CLI:
-
-```bash
-$ just-launch chrome https://github.com
 ```
 
 ## Installation
