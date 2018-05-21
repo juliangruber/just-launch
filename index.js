@@ -1,6 +1,7 @@
 'use strict'
 
 const os = require('os')
+const { promisify } = require('util')
 
 const browsers = {
   electron: require('electron-stream'),
@@ -23,19 +24,19 @@ const browsers = {
   }[os.platform()]
 }
 
-module.exports = (browser, opts, cb) => {
+module.exports = async (browser, opts) => {
   if (browser === 'electron') {
     const e = browsers.electron(opts)
     e.end(`location = '${opts.uri}';`)
-    setImmediate(() => cb(null, e))
+    return e
   } else if (/^phantom/.test(browser)) {
     const p = browsers.phantomjs(opts)
     p.end(`location = '${opts.uri}';`)
-    setImmediate(() => cb(null, p))
+    return p
   } else if (os === 'linux' && browser === 'chrome') {
-    setImmediate(() => cb(null, browsers.chrome(opts)))
+    return browsers.chrome(opts)
   } else if (browsers[browser]) {
-    browsers[browser](opts, cb)
+    return promisify(browsers[browser])(opts)
   } else {
     throw new Error('OS / browser combination not available')
   }

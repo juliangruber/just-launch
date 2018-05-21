@@ -12,6 +12,5 @@ if (!browser || !uri) {
   process.exit(1)
 }
 
-launch(browser, { uri }, (err, ps) => {
-  if (err) throw err
-})
+launch(browser, { uri })
+.catch(err => setImmediate(() => { throw err }))

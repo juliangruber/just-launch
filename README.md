@@ -38,10 +38,13 @@ Use its API:
 ```js
 const launch = require('just-launch')
 
-launch('chrome', {
-  uri: 'https://github.com'
-}, (err, browser) => {
-  if (err) throw err
+// using async/await
+const browser = await launch('chrome', { uri: 'https://github.com' })
+browser.on('error', console.error)
+
+// using promises
+launch('chrome', { uri: 'https://github.com' })
+.then(browser => {
   browser.on('error', console.error)
 })
 ```
@@ -54,7 +57,7 @@ $ npm install [-g] just-launch
 
 ## API
 
-### launch(browser, opts, cb)
+### launch(browser, opts)
 
 Possible `browser` values:
 
@@ -69,17 +72,17 @@ Options:
 
 - `uri`
 
-`cb` gets called with `(err, browser)`, `browser` having API:
+Returns a `Browser` object:
 
-### browser.on('error', cb)
+### Browser#on('error', cb)
 
 An error occurred.
 
-### browser.on('exit', cb)
+### Browser#on('exit', cb)
 
 The process exited.
 
-### browser.kill()
+### Browser#kill()
 
 Kill the browser process.
 

@@ -2,7 +2,6 @@ const launch = require('.')
 
 launch('chrome', {
   uri: 'https://github.com'
-}, (err, browser) => {
-  if (err) throw err
+}).then(browser => {
   browser.on('error', console.error)
 })
