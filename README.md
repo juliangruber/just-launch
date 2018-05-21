@@ -1,5 +1,5 @@
 
-# just-launch
+# just-launch [![Build Status](https://travis-ci.com/juliangruber/just-launch.svg?branch=master)](https://travis-ci.com/juliangruber/just-launch)
 
 Launch any browser, on any OS, with a fresh session!
 
