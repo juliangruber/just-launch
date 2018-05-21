@@ -5,7 +5,7 @@
   "repository": "juliangruber/just-launch",
   "license": "MIT",
   "scripts": {
-    "test": "standard"
+    "test": "prettier-standard '**/*.js' && standard"
   },
   "bin": {
     "just-launch": "cli.js"
@@ -23,6 +23,7 @@
     "windows-firefox": "^1.0.0"
   },
   "devDependencies": {
+    "prettier-standard": "^8.0.1",
     "standard": "^9.0.0"
   }
 }
