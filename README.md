@@ -46,23 +46,6 @@ launch('chrome', {
 $ npm install [-g] just-launch
 ```
 
-## Available browsers
-
-- [x] [osx chrome](https://github.com/juliangruber/osx-chrome)
-- [x] [osx firefox](https://github.com/juliangruber/osx-firefox)
-- [X] [osx electron](https://github.com/juliangruber/electron-stream)
-- [X] [osx phantomjs](https://github.com/juliangruber/phantomjs-stream)
-- [x] [osx safari](https://github.com/juliangruber/osx-safari)
-- [x] [linux chrome](https://github.com/juliangruber/linux-chrome)
-- [x] [linux firefox](https://github.com/juliangruber/linux-firefox)
-- [X] [linux electron](https://github.com/juliangruber/electron-stream)
-- [X] [linux phantomjs](https://github.com/juliangruber/phantomjs-stream)
-- [X] [windows chrome](https://github.com/ashnur/windows-chrome)
-- [X] [windows firefox](https://github.com/vweevers/windows-firefox)
-- [X] [windows electron](https://github.com/juliangruber/electron-stream)
-- [X] [windows phantomjs](https://github.com/juliangruber/phantomjs-stream)
-- [X] [windows edge](https://github.com/eugeneware/windows-edge)
-
 ## API
 
 ### launch(browser, opts, cb)
@@ -86,6 +69,23 @@ Possible `browser` values:
 $ just-launch
 Usage: just-launch BROWSER URI
 ```
+
+## Related projects
+
+- [osx chrome](https://github.com/juliangruber/osx-chrome)
+- [osx firefox](https://github.com/juliangruber/osx-firefox)
+- [osx electron](https://github.com/juliangruber/electron-stream)
+- [osx phantomjs](https://github.com/juliangruber/phantomjs-stream)
+- [osx safari](https://github.com/juliangruber/osx-safari)
+- [linux chrome](https://github.com/juliangruber/linux-chrome)
+- [linux firefox](https://github.com/juliangruber/linux-firefox)
+- [linux electron](https://github.com/juliangruber/electron-stream)
+- [linux phantomjs](https://github.com/juliangruber/phantomjs-stream)
+- [windows chrome](https://github.com/ashnur/windows-chrome)
+- [windows firefox](https://github.com/vweevers/windows-firefox)
+- [windows electron](https://github.com/juliangruber/electron-stream)
+- [windows phantomjs](https://github.com/juliangruber/phantomjs-stream)
+- [windows edge](https://github.com/eugeneware/windows-edge)
 
 ## License
 
