@@ -3,6 +3,10 @@
 
 Launch any browser, on any OS, with a fresh session!
 
+```bash
+$ just-launch chrome https://github.com/
+```
+
 ## Browsers
 
 `just-launch` comes with support for those browsers:
