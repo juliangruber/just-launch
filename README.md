@@ -3,7 +3,9 @@
 
 Launch any browser, on any OS, with a fresh session!
 
-Supports
+## Browsers
+
+`just-launch` comes with support for those browsers:
 
 - Chrome
 - Firefox
@@ -12,7 +14,7 @@ Supports
 - Electron
 - PhantomJS
 
-on
+On those operating systems:
 
 - mac OS
 - Windows
