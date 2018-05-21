@@ -1,7 +1,22 @@
 
 # just-launch
 
-  Launch any browser, on any OS!
+Launch any browser, on any OS!
+
+Supports
+
+- Chrome
+- Firefox
+- Safari
+- Edge
+- Electron
+- PhantomJS
+
+on
+
+- mac OS
+- Windows
+- Linux
 
 ## Usage
 
