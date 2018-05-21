@@ -71,6 +71,15 @@ Options:
 
 - `uri`
 
+Possible `browser` values:
+
+- `chrome`
+- `firefox`
+- `electron`
+- `phantom`
+- `safari` (mac OS only)
+- `edge` (Windows only)
+
 ## CLI
 
 ```bash
